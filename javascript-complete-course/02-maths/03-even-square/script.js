@@ -29,8 +29,8 @@
     document.getElementById("run").addEventListener("click", function() {
 
         var square;
-/* de lus gaat door tot het kwadraat van een getal tussen 1 en 21 niet groter is dan 21*/
-        
+/* de lus gaat door tot het kwadraat van een getal tussen 1 en 21 niet groter is dan 21 door i*i<21 */
+
         for (i =1; i*i < 21; i ++){
 
             square = i*i;
