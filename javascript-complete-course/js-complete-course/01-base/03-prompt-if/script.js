@@ -12,5 +12,10 @@
 (function() {
 
   // your code here
-    var naam = prompt("Hallo, hoe heet je?", "");
+    var naam = prompt("Do you want some cake, y or n?", "");
+    console.log(naam);
+    if (naam==="y"){
+        alert("congratulations");
+    }
+    else alert("more cake for me then :p !");
 })();
