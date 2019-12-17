@@ -11,20 +11,31 @@
 
 (function() {
     // to get the value of an input: document.getElementById("element-id").value
-
     document.getElementById("addition").addEventListener("click", function() {
-        // perform an addition
+        var opone = parseInt(document.getElementById("op-one").value);
+        var optwo = parseInt(document.getElementById("op-two").value);
+        alert(opone+optwo);
+
     });
 
     document.getElementById("substraction").addEventListener("click", function() {
         // perform an substraction
+        var opone = parseInt(document.getElementById("op-one").value);
+        var optwo = parseInt(document.getElementById("op-two").value);
+        alert(opone-optwo);
     });
 
     document.getElementById("multiplication").addEventListener("click", function() {
         // perform an multiplication
+        var opone = parseInt(document.getElementById("op-one").value);
+        var optwo = parseInt(document.getElementById("op-two").value);
+        alert(opone*optwo);
     });
 
     document.getElementById("division").addEventListener("click", function() {
         // perform an division
+        var opone = parseInt(document.getElementById("op-one").value);
+        var optwo = parseInt(document.getElementById("op-two").value);
+        alert(opone/optwo);
     });
 })();
