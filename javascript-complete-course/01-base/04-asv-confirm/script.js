@@ -12,6 +12,22 @@
 (function() {
 
     // your code here
-    
+    var age = prompt("What's your age?", "");
+    var gender = prompt("What's your gender?", "")
+    var hometown = prompt("what's your hometown", "");
+    var varConfirm = confirm("click 'yes' or 'cancel'");
+    alert("your age is  "+age+
+        "your gender is  "+gender+
+        "your hometown is "+hometown
+    );
+
+ if (varConfirm ===false){
+     location.reload();
+   }
+   else{
+      alert("dank u") ;
+   }
+
+
 
 })();
