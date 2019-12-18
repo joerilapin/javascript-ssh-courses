@@ -11,3 +11,5 @@ finished exercise 4, confirm and if..else uitgevoerd
 finished exercise 2.1 my first calculator, with Sicko's help;)
 
 finished 2.3 exercise 
+
+finished 2.4 exercise
