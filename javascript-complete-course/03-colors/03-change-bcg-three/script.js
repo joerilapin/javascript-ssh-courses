@@ -12,5 +12,19 @@
 (function() {
 
     // your code here
+    document.getElementById("run").addEventListener("click", function(){
+
+
+    document.body.style.background = random_bg_color();
+})
 
 })();
+
+function random_bg_color(){
+    let x = Math.floor(Math.random() * 256);
+    let y = Math.floor(Math.random() * 256);
+    let z = Math.floor(Math.random() * 256);
+    let bgColor = "rgb(" + x + "," + y + "," + z + ")";
+    console.log(bgColor);
+    return bgColor;
+}
