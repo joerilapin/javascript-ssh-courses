@@ -28,14 +28,14 @@
     document.getElementById("target").innerHTML = greeting();
 
     function greeting() {
-        var todaysDate = new Date();
-        var actualHour = todaysDate.getHours();
-        var refHour = setHours(18,0,0);
+        var d = new Date();
+        var h = d.getHours();
+        var ref = h.setHours(18,0,0);
         /*18h00 moet hier komen maar hoe? -->w3schools Set the time to 15:35:01
         var d = new Date();
         d.setHours(15, 35, 1);
         */
-        if (actualHour<refHour){
+        if (h<ref){
             return "Hello";
         }
         else{

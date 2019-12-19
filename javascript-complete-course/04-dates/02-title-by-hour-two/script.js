@@ -11,8 +11,21 @@
 
 (function() {
 
-    // to change the content of a tag: document.getElementById("element-id").innerHTML = "new-value"
+    document.getElementById("target").innerHTML = greeting();
 
-    // your code here
+    function greeting () {
+        let d = new Date();
+        let m = d.getMinutes();
+        let hm = d.getHours()+m;
+        let ref = d.setHours(17, 30, 0);
+
+
+        if (hm < ref) {
+            return "Hello";
+        } else {
+            return "Good evening";
+        }
+    }
+
 
 })();
