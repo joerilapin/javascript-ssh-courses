@@ -32,11 +32,18 @@
                                                                             */
         function greeting() {                                               //begin van de functie
 
+                                                                            //invullen van de variabelen
+        let d = new Date();                                                 /*wat doet new Date()Thu Dec 19 2019
+                                                                              15:17:54 GMT+0100
+                                                                              (Central European Standard Time)
+                                                                            */
+        let h = d.getHours();                                               /*d.gethours haalt het uur uit de variabel d
+                                                                             waar new Date in zit, cfr infra, in casu 15
+                                                                             */
 
-        let d = new Date();                                                 //invullen van de variabelen
-        let h = d.getHours();
-        console.log(h);
-        let ref = h.setHours(18,0,0);
+        let ref = d.setHours(18,0,0);                           /*setHours steekt het uur in varia-
+                                                                                bele ref zoals tussen de () aangegeven
+                                                                              */                             /*
         /*18h00 moet hier komen maar hoe?
         -->w3schools
         Set the time to 15:35:01
@@ -50,7 +57,7 @@
         else{
            return "good evening";
         }
-        }                                                                   //einde van de functie
+        }                                                                   //einde van de functie greeting
 
 
 
@@ -58,4 +65,4 @@
 
 
 
-})();
+})();                                                                       //einde van de onbenoemde functie
