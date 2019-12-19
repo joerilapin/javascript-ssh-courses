@@ -1,6 +1,6 @@
 /* becode/javascript
  *
- * /04-dates/02-title-by-hour-two/script.js - 4.2: texte en fonction de l'heure (2)
+ * /04-dates/02-title-by-hour-two/script.js - 4.2: texte en fonction de l'heure  (2)
  *
  * coded by leny@BeCode
  * started at 26/10/2018
