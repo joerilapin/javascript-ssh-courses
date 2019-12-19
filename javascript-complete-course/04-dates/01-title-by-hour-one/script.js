@@ -36,7 +36,7 @@
         let d = new Date();                                                 //invullen van de variabelen
         let h = d.getHours();
         console.log(h);
-        let ref = h.setHours();
+        let ref = h.setHours(18,0,0);
         /*18h00 moet hier komen maar hoe?
         -->w3schools
         Set the time to 15:35:01
