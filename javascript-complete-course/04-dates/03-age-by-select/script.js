@@ -1,6 +1,6 @@
 /* becode/javascript
  *
- * /04-dates/03-age-by-select/script.js - 4.3: calculateur d'âge
+ * /04-dates/03-age-by-select/script.js -  4.3: calculateur d'âge
  *
  * coded by leny@BeCode
  * started at 26/10/2018
