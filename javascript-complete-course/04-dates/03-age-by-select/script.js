@@ -9,8 +9,19 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+(function()
+{
 
     // your code here
 
+
+//de leeftijdsbepaling:
+        let age = year -birthyear;
+        if ((month >=birthMonth) || ((month = birthmonth) && (day >=birthDay))) )
+        {alert("You are " + age + " years old ;)");"years old :)"
+        }
+        else
+        {
+         alert("you are " + (age - 1) +)
+        }
 })();
