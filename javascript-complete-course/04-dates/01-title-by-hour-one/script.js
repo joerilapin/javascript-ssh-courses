@@ -14,6 +14,24 @@
     // to change the content of a tag: document.getElementById("element-id").innerHTML = "new-value"
 
     // your code here
-    ss
+
+/*het referentie-uur is 18h00, als het huidige uur  <18h00, dan document.write  hello
+                                                    >18h00, dan                 good evening
+ */
+
+if actualHour<18h00{
+    document.write("Hello")
+    };
+    else{
+    document.write("good evening");
+    }
+
+    /*hoe haal ik de tijd op? -->https://www.digitalocean.com/community/tutorials/understanding-date-and-time-in-javascript
+
+// Set variable to current date and time
+const now = new Date();
+
+// View the output
+now;
 
 })();
