@@ -27,7 +27,7 @@
     (function() {
     document.getElementById("target").innerHTML = greeting();
 
-    function greeting () {
+    function greeting() {
         var todaysDate = new Date();
         var actualHour = todaysDate.getHours();
         var refHour = setHours(18,0,0);
@@ -35,12 +35,12 @@
         var d = new Date();
         d.setHours(15, 35, 1);
         */
-        if actualHour<refHour{
-       "Hello")
-        };
+        if (actualHour<refHour){
+            return "Hello";
+        }
         else{
-            "good evening"
-        });
+           return "good evening";
+        }
         }
 
 
