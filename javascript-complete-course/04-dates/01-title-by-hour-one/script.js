@@ -25,23 +25,32 @@
         Where get is used to retrieve a specific component from a date, set is used to modify components of a date
  */
     (function() {
-    document.getElementById("target").innerHTML = greeting();
 
-    function greeting() {
-        var d = new Date();
-        var h = d.getHours();
-        var ref = h.setHours(18,0,0);
-        /*18h00 moet hier komen maar hoe? -->w3schools Set the time to 15:35:01
+    document.getElementById("target").innerHTML = greeting();      /*deze commando zet de waarde uit de functie
+                                                                               greeting in de HTML, in de p tag met
+                                                                               id= target
+                                                                            */
+        function greeting() {                                               //begin van de functie
+
+
+        let d = new Date();                                                 //invullen van de variabelen
+        let h = d.getHours();
+        console.log(h);
+        let ref = h.setHours();
+        /*18h00 moet hier komen maar hoe?
+        -->w3schools
+        Set the time to 15:35:01
         var d = new Date();
         d.setHours(15, 35, 1);
         */
-        if (h<ref){
+
+        if (h<ref){                                                         //het criterium
             return "Hello";
         }
         else{
            return "good evening";
         }
-        }
+        }                                                                   //einde van de functie
 
 
 

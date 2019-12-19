@@ -11,9 +11,12 @@
 
 (function() {
 
-    document.getElementById("target").innerHTML = greeting();
+    document.getElementById("target").innerHTML = greeting();           /*deze commando zet de waarde uit de functie
+                                                                                    greeting in de HTML, in de p tag met
+                                                                                    id= target
+                                                                                 */
 
-    function greeting () {
+    function greeting () {                                                        //begin van de functie
         let d = new Date();
         let m = d.getMinutes();
         let hm = d.getHours()+m;
