@@ -10,7 +10,7 @@
 // You will have time to focus on it later.
 
 (function() {
-
+    document.getElementById("run").addEventListener("click", function() {
     var fruits = [
         "pomme",
         "poire",
@@ -25,5 +25,13 @@
     ];
 
     // your code here
+    fruits.pop();
+    fruits.shift();
+    fruits.push("kiwi");
+    fruits.unshift("banana");
+
+    alert(fruits);
+
+})
 
 })();
