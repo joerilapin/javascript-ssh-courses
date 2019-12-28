@@ -10,7 +10,7 @@
 // You will have time to focus on it later.
 
 (function() {
-
+    document.getElementById("run").addEventListener("click", function() {
     var fruits = [
         "apple",
         "pear",
@@ -27,5 +27,12 @@
     ];
 
     // your code here
+    for (let i = 0; i < fruits.length; i++){
+
+        console.log(fruits[i]);
+
+    }
+
+})
 
 })();
