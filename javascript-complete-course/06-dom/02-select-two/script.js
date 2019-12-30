@@ -9,8 +9,11 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
+
 (function() {
 
     // your code here
-
+    document.querySelector("#target").innerHTML = "owned"
+//querySelector() returns the first element within the document that matches the specified selector, or group of selectors.
+//In #target - # hashtag denotes selector
 })();
