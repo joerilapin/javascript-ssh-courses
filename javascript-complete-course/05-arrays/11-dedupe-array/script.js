@@ -1,6 +1,6 @@
 /* becode/javascript
  *
- * /05-arrays/11-dedupe-array/script.js - 5.11: dédoublonnement d'un tableau
+ * / 05-arrays/11-dedupe-array/script.js - 5.11: dédoublonnement d'un tableau
  *
  * coded by leny@BeCode
  * started at 26/10/2018
