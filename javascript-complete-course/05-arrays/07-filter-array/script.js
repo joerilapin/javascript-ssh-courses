@@ -9,7 +9,7 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+
 
     var people = [
         {
@@ -90,5 +90,19 @@
     ];
 
     // your code here
+    document.getElementById("run").addEventListener("click", function(){
+        var newArray=[];//hier declareren en initialiseren we een nieuwe array
 
-})();
+
+       for(let i=0; i<people.length; i++){
+           if (people[i].age>18){//hier ontbrak de [i] bij people en dan was er geen output in de console
+               newArray.push(people[i].firstname);//hier ontbrak de [i] bij people en dan was er geen output in de console
+               newArray.push(people[i].lastname);//idem
+               newArray.push(people[i].age);//idem
+           }
+       }
+            console.log(newArray) ;
+    });
+
+
+
