@@ -29,5 +29,9 @@
     ];
 
     // your code here
+    let unique = [...new Set(fruits)];/*source:https://wsvincent.com/javascript-remove-duplicates-array/
+                                        set will automatically remove duplicates for us.
+                                       */
+    console.log(unique);
 
 })();
