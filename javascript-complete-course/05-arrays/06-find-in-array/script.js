@@ -95,7 +95,7 @@
 
         people.forEach(function (person,i) {
             if (person.firstname==="Jean" && person.lastname==="Dupont")
-                console.log(person.email,i);
+                console.log(person.email,i);//the index is the 9th element, so because of array it is 8(remember 0,1,2,3...)
         });
 
     })
