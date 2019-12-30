@@ -90,5 +90,11 @@
     ];
 
     // your code here
+    let ageArray = [];
+    for (i= 0 ; i< people.length ; i++){
+        ageArray[i] = people[i].age;
+    }
 
+    let totalAges = ageArray.reduce((total, age) => total + age, 0);
+    console.log("total ages : " + totalAges);
 })();
