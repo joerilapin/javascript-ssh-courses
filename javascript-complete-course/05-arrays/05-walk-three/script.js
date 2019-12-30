@@ -10,7 +10,7 @@
 // You will have time to focus on it later.
 
 (function() {
-
+    document.getElementById("run").addEventListener("click", function() {
     var people = [
         {
             firstname: "Garald",
@@ -40,5 +40,11 @@
     ];
 
     // your code here
+    people.forEach(function(element) {
+        console.log(element.firstname);
+    });
+
+
+})
 
 })();

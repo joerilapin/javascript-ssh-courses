@@ -90,5 +90,14 @@
     ];
 
     // your code here
+    document.getElementById("run").addEventListener("click", function() {
+
+
+        people.forEach(function (person,i) {
+            if (person.firstname==="Jean" && person.lastname==="Dupont")
+                console.log(person.email,i);
+        });
+
+    })
 
 })();
