@@ -27,7 +27,7 @@
         ];
 
         // your code here
-        alert(fruits [3]);
-    })
+        alert(fruits [3]);//this shows the 4th(remember 0,1,2,3...) element of the array on screen in an alertbox
+    })s
 
 })();
