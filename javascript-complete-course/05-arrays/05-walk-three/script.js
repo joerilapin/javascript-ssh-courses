@@ -40,8 +40,8 @@
     ];
 
     // your code here
-    people.forEach(function(element) {
-        console.log(element.firstname);
+    people.forEach(function(people) {
+        console.log(people.firstname);
     });
 
 
