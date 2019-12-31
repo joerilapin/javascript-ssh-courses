@@ -11,7 +11,13 @@
 
 (function() {
 
-    // your code here
-    document.getElementsByClassName("target").innerhtml="owned";
+    /* your code here
+    document.getElementsByClassName.innerhtml="target";
+    */
+    //For loop to iterate all the classes with name target
+    var changedContent = document.getElementsByClassName("target");
+    for (var i = 0; i<changedContent.length; i++){
+        changedContent[i].innerHTML = "Owned!";
+    }
 
 })();
