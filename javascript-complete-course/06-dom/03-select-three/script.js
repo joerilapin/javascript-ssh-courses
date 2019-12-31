@@ -12,5 +12,6 @@
 (function() {
 
     // your code here
+    document.getElementsByClassName("target").innerhtml="owned";
 
 })();
