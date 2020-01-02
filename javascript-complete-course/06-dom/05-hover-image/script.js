@@ -11,6 +11,16 @@
 
 (function() {
 
-    // your code here
+    // Store image tag and sources in variables
+    function hover(element) {
+        element.setAttribute('src', 'http://dummyimage.com/100x100/eb00eb/fff');
+    }
+
+    function unhover(element) {
+        element.setAttribute('src', 'http://dummyimage.com/100x100/000/fff');
+    }
+
+<img id="my-img" src="http://dummyimage.com/100x100/000/fff" onmouseover="hover(this);" onmouseout="unhover(this);" />
+
 
 })();
