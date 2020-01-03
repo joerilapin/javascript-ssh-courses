@@ -29,7 +29,7 @@ for (i = 0 ; i < 10 ; i++ ) {
 //in het element met id tableid  (Salitable) steken we <tr></tr>, 10 keer
     document.getElementById("tableid").appendChild(emmacell [i]);
     //nu steken we de waarden in de emmacellen via innerhtml
-    emmacell [i].innerHTML = "sassy sali" +i;
+    emmacell [i].innerHTML = "BeCode" +i;
 }
 
 

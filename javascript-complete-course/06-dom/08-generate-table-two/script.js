@@ -12,5 +12,26 @@
 (function() {
 
     // your code here
+    var joeriTable=document.createElement("table");
+    joeriTable.setAttribute("id","tableid");
+    document.body.appendChild(joeriTable);
 
+    var joeriCell=[];
+    var joeriResults;
+
+    for(i=0;i<10;i++) {
+            joeriCell [i] = document.createElement("tr");
+            joeriCell [i].setAttribute("id", "rowid" + i);
+            document.getElementById("tableid").appendChild(joeriCell[i]);
+
+            joeriCol=[];
+            for (j = 0; j < 10; j++) {
+            joeriCol[j] = document.createElement("td");
+            document.getElementById("rowid"+i).appendChild(joeriCol [j]);
+
+                joeriResults =  (i +1) *  (j +1);
+                joeriCol[j].innerHTML = joeriResults;
+        }
+    }
+    document.getElementById("target").appendChild(joeriTable);
 })();
