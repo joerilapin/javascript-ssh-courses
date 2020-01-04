@@ -15,10 +15,13 @@
     var age = prompt("What's your age?", "");
     var gender = prompt("What's your gender?", "")
     var hometown = prompt("what's your hometown", "");
-    var varConfirm = confirm("click 'yes' or 'cancel'");
-    alert("your age is  "+age+
-        "your gender is  "+gender+
-        "your hometown is "+hometown
+    var varConfirm = confirm("click 'yes' or 'cancel'");//confirm its return value is a boolean type
+                                                        //https://www.w3schools.com/jsref/met_win_confirm.asp
+
+
+    alert("your age is "+age+
+        ", your gender is "+gender+
+        ", your hometown is "+hometown
     );
 
  if (varConfirm ===false){
