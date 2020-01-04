@@ -12,5 +12,11 @@
 (function() {
 
     // your code here
+    document.getElementById("pass-one").addEventListener("click", function){
+
+
+
+    }
+
 
 })();
