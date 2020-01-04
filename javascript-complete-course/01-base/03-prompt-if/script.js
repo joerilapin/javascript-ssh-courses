@@ -14,7 +14,7 @@
   // your code here
     var naam = prompt("Do you want some cake, y or n?", "");
     console.log(naam);
-    if (naam==="y"){
+    if (naam==="y"){        //3 'gelijk aan' tekens staan voor overeenkomen in inhoud(?) en type
         alert("congratulations");
     }
     else alert("more cake for me then :p !");
