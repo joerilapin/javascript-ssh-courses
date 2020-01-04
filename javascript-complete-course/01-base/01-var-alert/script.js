@@ -45,4 +45,6 @@
                                     using the RETURN STATEMENT. The value to be returned is specified in the return.
                                     That value can be a constant value,a variable, or a calculation where the result
                                     of the calculation is returned*/
-})();
+
+                                Syntax  return value;
+
