@@ -21,7 +21,7 @@
     //text 	        String 	Required. The text to display in the dialog box
     //defaultText 	String 	Optional. The default input text
     //Return Value: 	A String. If the user clicks "OK", the input value is returned. If the user clicks "cancel",
-    // null is returned. If the user clicks OK without entering any text, an empty string is returned.
+    // NULL is returned. If the user clicks OK without entering any text, an empty string is returned.
     // A prompt box is often used if you want the user to input a value before entering a page.
     //
     // Note: When a prompt box pops up, the user will have to click either "OK" or "Cancel" to proceed after entering
