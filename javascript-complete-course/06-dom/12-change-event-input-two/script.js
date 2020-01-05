@@ -29,7 +29,7 @@
                 numbers++
             }
         }
-
+        //the if...else... condition for the password: length max 8 and at least 2 numbers
         if (password.length >= 8 && numbers >= 2){
             validity.innerHTML = "Ok"
         }
