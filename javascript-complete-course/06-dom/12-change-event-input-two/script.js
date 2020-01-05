@@ -11,6 +11,32 @@
 
 (function() {
 
-    // your code here
+    // your code here  |  (https://www.mkyong.com/javascript/check-if-variable-is-a-number-in-javascript/)
+
+    var pass_one = document.getElementById("pass-one");
+    var validity = document.getElementById("validity");
+
+    pass_one.addEventListener("input", function(){
+
+        var password = pass_one.value;
+        var numbers = 0;
+
+        for (var i = 0 ; i < password.length; i++){
+            /*In Javascript, the exclamation mark (“!”) symbol, called a “bang,” is the logical “not” operator.
+            Placed in front of a boolean value it will reverse the value, returning the opposite.
+           The charAt() method returns the character at the specified index in a string. & ! gives the opposite*/
+            if (!isNaN(password.charAt(i))){
+                numbers++
+            }
+        }
+
+        if (password.length >= 8 && numbers >= 2){
+            validity.innerHTML = "Ok"
+        }
+        else {
+            validity.innerHTML = "Not ok"
+        }
+
+    })
 
 })();
