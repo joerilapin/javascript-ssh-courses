@@ -96,7 +96,8 @@
 
        for(let i=0; i<people.length; i++){
            if (people[i].age>18){//hier ontbrak de [i] bij people en dan was er geen output in de console
-               newArray.push(people[i].firstname);//hier ontbrak de [i] bij people en dan was er geen output in de console
+               newArray.push(people[i].firstname);//hier ontbrak de [i] bij people en dan was er geen output in de
+                                                // console
                newArray.push(people[i].lastname);//idem
                newArray.push(people[i].age);//idem
            }
