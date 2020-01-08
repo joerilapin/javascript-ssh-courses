@@ -11,7 +11,7 @@
 
 (function() {
 
-    var fruits = [
+    const fruits = [
         "apple",
         "perry",
         "strawberry",
@@ -28,11 +28,28 @@
 
     // your code here
     document.getElementById("run").addEventListener("click", function() {
-        if (fruits.includes("apple")) {
-            return console.log("yes");
+        if (fruits.includes("apple",0)) {//Javascript array includes() is an inbuilt function that determines whether the
+                                        // array contains the specified element or not. It returns true or false as
+                                        // output depending on the result.
+                                        // The includes() method is case sensitive
+                                        //Syntax
+                                        // array.includes(element, start)
+                                        //start Optional. Default 0. At which position in the array to start the search
+            return console.log("yes,there is an apple in the array");
         } else {
-            return console.log("no");
+            return console.log("no there is no apple in the array");
         }
+
+
+
+/* extra toevoeging om de optionele start positie te gebruiken, werkt niet...
+       if (fruits.includes("apple",1)){//start Optional. Default 0. At which position in the array to start
+            // the search
+            return console.log("yes, there is an apple after the first position in the array");
+        } else {
+            return console.log("no, after the first position there are no more apples");
+        }
+*/
 
     })
 })();
